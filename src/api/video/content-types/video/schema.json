@@ -4,10 +4,11 @@
   "info": {
     "singularName": "video",
     "pluralName": "videos",
-    "displayName": "Videos"
+    "displayName": "Videos",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -27,11 +28,7 @@
       "required": true
     },
     "poster": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "string"
     }
   }
 }
