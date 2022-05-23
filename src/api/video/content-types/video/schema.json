@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -19,9 +19,6 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "isPublic": {
-      "type": "boolean"
     },
     "url": {
       "type": "string",
